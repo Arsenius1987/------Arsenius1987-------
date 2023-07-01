@@ -1,0 +1,29 @@
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+li:hover {
+    background: #3f8059;
+}
+ul>li {
+    display: inline-block;
+    margin-left: -4px;
+    background: #4c996d;
+    padding:  5px 10px;
+    position: relative;
+    width: 100px;
+    color: white;
+    text-align: center;
+    border: #458c62 1px solid;
+    box-sizing: border-box;
+}
+.hover li {
+    margin-left: 0px;
+}
+li:hover>.hover {
+    display: block;
+}
+.inner {
+    left: 99px;
+    top: 0;
+}
